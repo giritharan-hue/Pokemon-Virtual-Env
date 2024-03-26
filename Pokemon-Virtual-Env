@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.3.1/dist/aframe-environment-component.min.js"></script>
+
+  </head>
+  <body>
+    <a-scene>
+      <!--stadium -->
+      <a-gltf-model src="https://cdn.glitch.global/cdb09237-3dc5-4f3c-96b4-94698e9b434e/pokemon_stadium.glb?v=1711428077374" position="0 1.5 -27" scale="2 2 2"></a-gltf-model>
+     
+      <a-gltf-model src="https://cdn.glitch.global/52a66d9e-4a1e-4f54-b501-2b86e42e3f84/pikachu_amiibo.glb?v=1711434786261" rotation="0 90 0" position="-5 -0.7 25" scale="20 30 5"></a-gltf-model>
+     
+      <a-gltf-model src="https://cdn.glitch.global/52a66d9e-4a1e-4f54-b501-2b86e42e3f84/relaxaurus_palworld_model_3d_free.glb?v=1711436146261" rotation="-90 0 0" position="5 0.7 25" scale="1 1 1"></a-gltf-model>
+     
+      <a-gltf-model src="https://cdn.glitch.global/cdb09237-3dc5-4f3c-96b4-94698e9b434e/abandoned_house.glb?v=1711437198780" position="15 0.7 45" scale="1 1 1"></a-gltf-model>
+      <a-gltf-model src="https://cdn.glitch.global/cdb09237-3dc5-4f3c-96b4-94698e9b434e/abandoned_house.glb?v=1711437198780" position="-15 0.7 45" scale="1 1 1"></a-gltf-model>
+     
+      <a-gltf-model src="https://cdn.glitch.me/52a66d9e-4a1e-4f54-b501-2b86e42e3f84/baker_and_the_bridge.glb?v=1711441551474" position="-50 1.5 -27" scale="2 2 2"></a-gltf-model>
+          <a-entity environment="preset: forest"></a-entity>  
+      <a-plane position="0 0.1 40" rotation="-90 0 0" width="3" height="70" color="grey"></a-plane>
+    </a-scene>
+  </body>
+</html>
